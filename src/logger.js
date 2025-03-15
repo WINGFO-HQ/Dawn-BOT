@@ -47,17 +47,14 @@ class Logger {
     this.log("warning", message, account);
   }
 
-  // Add a listener
   addListener(listener) {
     this.listeners.add(listener);
   }
 
-  // Remove a listener
   removeListener(listener) {
     this.listeners.delete(listener);
   }
 
-  // Notify all listeners of a new log entry
   notifyListeners(logEntry) {
     for (const listener of this.listeners) {
       try {
@@ -68,7 +65,6 @@ class Logger {
     }
   }
 
-  // Get all logs or filtered logs
   getLogs(filter = null) {
     if (!filter) return this.logs;
 
@@ -80,13 +76,11 @@ class Logger {
     });
   }
 
-  // Clear all logs
   clear() {
     this.logs = [];
     this.notifyListeners({ type: "clear" });
   }
 }
 
-// Create a singleton logger instance
 const logger = new Logger();
 export default logger;
