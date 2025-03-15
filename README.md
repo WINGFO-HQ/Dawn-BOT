@@ -88,8 +88,8 @@ The dashboard will start, and the application will begin processing accounts aut
 
 ## Community Links
 
-- Telegram Channel: [https://t.me/infomindao](https://t.me/infomindao)
-- Telegram Group: [https://t.me/WINGFO_DAO](https://t.me/WINGFO_DAO)
+- [Telegram Channel](https://t.me/infomindao)
+- [Telegram Group](https://t.me/WINGFO_DAO)
 
 ## License
 
