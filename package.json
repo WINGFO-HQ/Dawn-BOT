@@ -1,0 +1,28 @@
+{
+  "name": "dawn-bot",
+  "version": "1.0.0",
+  "description": "A Node.js automation tool for managing and maintaining Dawn accounts with automatic login, keepalive, and token management features.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WINGFO-HQ/Dawn-BOT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/WINGFO-HQ/Dawn-BOT/issues"
+  },
+  "homepage": "https://github.com/WINGFO-HQ/Dawn-BOT#readme",
+  "dependencies": {
+    "@antiadmin/anticaptchaofficial": "^1.0.51",
+    "axios": "^1.8.3",
+    "blessed": "^0.1.81",
+    "dotenv": "^16.4.7",
+    "https-proxy-agent": "^7.0.6"
+  }
+}
