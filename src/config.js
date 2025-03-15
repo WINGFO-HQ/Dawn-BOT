@@ -3,7 +3,7 @@ import { HttpsProxyAgent } from "https-proxy-agent";
 
 dotenv.config();
 
-export const APP_ID = "677bc6b01216f235d70d5b0a";
+export const APP_ID = "67d5987fede3e379578664b6";
 export const EXTENSION_ID = "fpdkjdnhkakefebpekbdhillbhonfjjp";
 export const APP_VERSION = "1.1.3";
 export const API_BASE_URL = "https://www.aeropres.in";
